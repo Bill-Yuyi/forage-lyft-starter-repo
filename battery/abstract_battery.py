@@ -6,4 +6,4 @@ class AbstractBattery(ABC):
         self.last_service_date = last_service_date
 
     def battery_should_be_serviced(self):
-        return True
+        pass

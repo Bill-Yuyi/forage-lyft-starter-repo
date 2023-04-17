@@ -1,5 +1,5 @@
 
-from engine import AbstractEngine
+from engine.engine import AbstractEngine
 
 
 class CapuletEngine(AbstractEngine):

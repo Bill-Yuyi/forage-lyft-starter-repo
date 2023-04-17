@@ -9,3 +9,6 @@ class AbstractEngine(ABC):
         if warning_light_is_on is not None:
             self.warning_light_is_on = warning_light_is_on
 
+    def engine_should_be_serviced(self):
+        pass
+

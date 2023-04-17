@@ -1,4 +1,4 @@
-from engine import AbstractEngine
+from engine.engine import AbstractEngine
 
 
 class WilloughbyEngine(AbstractEngine):
